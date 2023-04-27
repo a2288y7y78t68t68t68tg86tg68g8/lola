@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Õ«”»… «·⁄„—</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<form>
+			<div class="top">
+				<div class="enter">
+					<h4>Õ«”»… «·⁄„—</h4>
+				</div>
+			</div>
+			<div class="mid">
+				<h4>√œŒ·  «—ÌŒ „Ì·«œﬂ</h4>
+				<div class="date item">
+					<p>«·ÌÊ„<span id="d-val"> 01</span></p>
+					<input type="range" id="date" max="31" value="01">
+				</div>
+				<div class="month item">
+					<p>«·‘Â— <span id="m-val"> 01</span></p>
+					<input type="range" id="month" max="12" value="01">
+				</div>
+				<div class="year item">
+					<p>«·”‰… <span id="y-val"> 1990</span></p>
+					<input type="range" id="year" min="1950" max="2022" value="2000">
+				</div>
+				<input type="button" name="submit" class="btn btn1" value="«Õ”»" onclick="age()" />
+				<input type="button" name="submit" class="btn btn2" value="«„”Õ" />
+			</div>
+			<div id="age"></div>
+			<div class="bottom"></div>
+		</form>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
